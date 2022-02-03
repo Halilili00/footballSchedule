@@ -25,6 +25,6 @@ function leaguesScadule(l_code) {
                 }
                 return matches;
             }
-            document.getElementById("info").innerHTML = `<p id="meneet">Menneeet</p> ${this.endMatches()}`
+            document.getElementById("info").innerHTML = `<p id="meneet">FINNISHED</p> ${this.endMatches()}`
         }))
 }
